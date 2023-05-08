@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.project.at_projetointerfase.ui.info.InfoFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_info" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.project.at_projetointerfase.ui.publis.PublicacaoFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_publicacoes" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.project.at_projetointerfase.ui.exp.ExperienciaProfissionalFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_exp" />
+    <fragment
+        android:id="@+id/cursosFragment2"
+        android:name="com.project.at_projetointerfase.ui.cursos.CursosFragment"
+        android:label="@string/menu_cursos"
+        tools:layout="@layout/fragment_cursos" />
+    <fragment
+        android:id="@+id/formacaoFragment"
+        android:name="com.project.at_projetointerfase.ui.formacao.FormacaoFragment"
+        android:label="@string/menu_formacao"
+        tools:layout="@layout/fragment_formacao" />
+</navigation>
